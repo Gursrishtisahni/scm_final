@@ -1,7 +1,7 @@
 function addToCart(id, title, price) {
     const cartItem = document.createElement('div');
     cartItem.classList.add('cart-item');
-    cartItem.innerHTML = `
+     `
         <strong>${title}</strong> - ₹${price.toFixed(2)}
         <button onclick="removeFromCart(this, ${price})">Remove</button>
     `;
